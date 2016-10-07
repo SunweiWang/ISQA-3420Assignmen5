@@ -12,3 +12,6 @@ Person who is querying the database.
 
 d) Software Package:
 A piece of software that is for commerical use.
+
+e) NIST Vulnerability DB:
+A DB of known published vulnerabilities
