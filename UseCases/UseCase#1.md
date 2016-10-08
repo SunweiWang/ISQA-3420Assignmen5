@@ -4,10 +4,10 @@
 
 **Primary Actor:** Manager
 
-**Goal in Context:** The Manager is able to determine license and vulnerability information from provided project information
+**Goal in Context:** The Manager is able to determine license and vulnerability information from provided software project information
 
 **Stakeholders:**
-- Manager: To receive clear and relevant project information
+- Manager: To receive clear and relevant software project information
 - Developer: To provide the relevant file/package level information
 
 **Preconditions:**
@@ -16,8 +16,8 @@
 
 - Proper project information has been provided
 
-**Main Success Scenario:** Manager receives accurate license and vulnerability information for the requested project packages
+**Main Success Scenario:** Manager receives accurate license and vulnerability information for the requested software project 
 
-**Failed End Conditions:** Manager receives inaccurate or invalid license and vulnerability information for the requested project packages
+**Failed End Conditions:** Manager receives inaccurate or invalid license and vulnerability information for the requested software projects
 
 **Trigger:** Manager uploads or identifies project information to which license and vulnerability information is provided
