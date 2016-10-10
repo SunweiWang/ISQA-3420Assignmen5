@@ -31,13 +31,42 @@ This process is responsible for managing the connection between the Manager and 
 ##Data Flows
 
 * **Software Package**:
-A piece of software that is for commerical use.
+A piece of software that is for commerical use, it is providede by the Developer as the input.
+
+* **Software Package Name**:
+The name of the Software Package provided by the Developer.
+
+* **Software Package Policy Information Request**:
+The request from the Developer or the Manager, asking for the the Software Package Policy Information from the corresponding datastore.
+
+* **Software Package Policy Information Results**:
+The results given to the Developer or the Manager, after they successfully requested the Software Package Policy Information from the corresponding datastore.
+
+* **Decision to add/change software policy**:
+The decision made by the manager to submit or modifiy policy documents in the corresponding datastore.
+
+* **Software Package Vulnerability Results**
+The vulnerability information that can be retrieved from the NIST Vulnerability datastore.
+
+* **Software Package License Results**
+The licenses information regarding to the software package provided.
+
+* **Software Package License and Vulnerability Results**
+The vulnerability information and licenses information regarding to the software package provided.
+
+* **Software Project License and Vulnerability Information Results**
+All the vulnerability information and licenses information regarding to the all software packages provided in the software project. 
+
+* **Software Project License and Vulnerability Information Request**
+The request from the manager, asking for all the vulnerability information and licenses information regarding to the all software packages provided in the software project. 
+
+##Data Repositories
 
 * **NIST Vulnerability DB**:
-A DB of known published vulnerabilities
+A database of known published vulnerabilities.
 
-* **Software Project**
-A collection of software packages
+* **Software Policy DB**:
+A database storing all the policy documents of the software packages.
 
-* **Software Package**
-Input for FOSSology scanning using the tool, it is compressed of a collection of files.
+* **Software License and Vulnerabilities DB**:
+A database storing all the vulnerability information and licenses information of software packages.
