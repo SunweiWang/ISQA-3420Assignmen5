@@ -2,10 +2,10 @@
 
 ##Entities
 
-* **Developer**: 
+###Developer: 
 Stakeholder who provides the relevant file/package level information.
 
-* **Manager**:
+###Manager:
 Stakeholder who receives clear and relevant project information.
 
 ##Processes
