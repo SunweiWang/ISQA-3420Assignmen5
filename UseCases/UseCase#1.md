@@ -1,4 +1,4 @@
-# Use Case – Format
+# Use Case – 1
 
 ## Title: Determine License and Vulnerability Information
 
@@ -12,7 +12,7 @@
 
 **Preconditions:**
 
-- Relevant file/package information is stored in a database which can be queried queried by the Manager.
+- Relevant file/package information is stored in a database which can be queried by the Manager
 
 - Proper project information has been provided
 
