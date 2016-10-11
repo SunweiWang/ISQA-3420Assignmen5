@@ -1,6 +1,6 @@
-**Executive Summary**
+#Executive Summary
 
-The executive summary must be a clearly defined description of the project. This
-includes the descriptions of why the system is design (motivation), expected changes resulting from the
-new system (organizational structure and authority and control), and the potential open source
-communities that would be engaged with to support this project (social responsibility).
+The system was designed to aid in software project license and vulnerability detection. Furthermore, the system was designed to compare the identified software project license and vulnerability information against corporate policy. Therefore, the motivation of designing this system is to making sure that the input software project has the suitable FOSS licenses which does not generate unwanted cost, such as some Copyleft licenses might require the corporate to distribute their modify version of code. Therefore, according to the corporate policy, it might be desirable to use the software packages with permissive licenses. Additionally, corporate might not want to use some software packages with the vulnerabilities which might backfire on them later. Thus, the system is designed for above purposes to aid the corporate manager making correct decisions and the corporate developers to choose the suitable software packages for their software project and work more efficiently. 
+
+Regarding to the organizational structure, authority and control, the system includes two main entities, the manager and the developer. The developer provides the relevant file/package information. The manager receives clear and relevant project information and has the ability to submit/modify the existing policy documents. Last but not least, this system also has social responsibilities. The system uses National Institute of Standards and Technology (NIST) Vulnerability database, this database integrates publicly available vulnerability resources and therefore up to date. Additionally, the system also uses the help from FOSSology (an open source license compliance software system and toolkit) to scan the licenses available in the input software packages.
+
